@@ -1,1 +1,19 @@
-TEST: 1 + 1
+from typing import Set  # this is needed for one of the type hints 
+
+
+def pair_sum_count(numbers: Set [int], A: int):
+    '''
+    Count the unique pairs in numbers that add up to A
+
+    Inputs:
+        - numbers: a set of numbers
+        - A: a number
+    Output:
+        - the count of unique pairs in the numbers list that add up to A
+    '''
+    count = 0
+    for number in numbers:
+        if number_one + number_two in numbers:
+            count += 1
+        return count    
+pair_sum_count([1,2,3,4,5,6,7], 5)
